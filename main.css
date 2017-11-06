@@ -1,0 +1,112 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 310px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 310px;
+    background-color: #7d7d7d;
+    color: #ffffff;  
+}
+
+.whitetext{
+    color: #ffffff;  
+}
+
+.header { 
+    position: relative;
+    background-color: #153768;
+    width: 100%;  
+
+
+}    
+
+img{
+    max-width:100%;
+    max-height:100%;
+}
+
+        .nav_box{     
+            width: 90%;
+            background-color: #efefef;
+            border-top: 4px solid #1d71a2;
+            margin: 5%;
+            padding: 5%;
+            margin-right: 50px
+        }
+
+.container {
+    width: auto;
+    max-width: 1250px;
+    padding: 20px;
+}
+
+
+        <!-- Tabelle auf der Infoseite -->
+        
+        .tg table{
+          width: 70%;
+        
+          }
+        .container {
+    width: auto;
+    max-width: 1250px;
+    padding: 20px;
+}
+
+       .tg  {
+           border-collapse:collapse;
+           border-spacing:0;border-color:#999;
+           text-align: left; 
+           width: 70%;
+       }
+       
+       .tg td{
+           font-family:Arial, sans-serif;
+           font-size:14px;
+           text-align: left; 
+           padding:10px 5px;
+           border-style:solid;
+           border-width:1px;
+           overflow:hidden;
+           word-break:normal;
+           border-color:#999;
+           color:#444;
+           background-color:#ffffff;
+       }
+       
+       .tg th{
+           font-family:Arial, sans-serif;
+           font-size:14px;
+           font-weight:normal;
+           text-align:left;
+           padding:10px 5px;
+           border-style:solid;
+           border-width:1px;
+           overflow:hidden;
+           word-break:normal;
+           border-color:#999;
+           color:#fff;
+           background-color:#26ADE4;
+       }
+       
+       .tg .tg-py0s{
+           font-weight:bold;
+           text-align:left;
+           background-color:#3979b5;
+           vertical-align:top;          
+       }      
+       .tg .tg-28r4{
+       font-size: 13px;
+        text-align:left;
+        vertical-align:top;
+       }
