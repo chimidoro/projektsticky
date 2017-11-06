@@ -40,11 +40,11 @@
 
 
     <body>
-        <!--Navigarionsleiste hier? hinzufÃ¼gen-->
+        <!--Navigarionsleiste hier??? hinzufügen-->
         <div class="wrapper">
             <header>
                 <div class="header">
-                    <a href="https://www.uni-goettingen.de/"><img id="logo" src="./img/logo.png" alt="Georg-August-UniversitÃ¤t GÃ¶ttingen"></a>
+                    <a href="https://www.uni-goettingen.de/"><img id="logo" src="./img/logo.png" alt="Georg-August-Universität Göttingen"></a>
                 </div>
             </header>
 
