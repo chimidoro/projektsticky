@@ -35,14 +35,14 @@ img{
     max-height:100%;
 }
 
-        .nav_box{     
-            width: 90%;
-            background-color: #efefef;
-            border-top: 4px solid #1d71a2;
-            margin: 5%;
-            padding: 5%;
-            margin-right: 50px
-        }
+.nav_box{     
+    width: 90%;
+    background-color: #efefef;
+    border-top: 4px solid #1d71a2;
+    margin: 5%;
+    padding: 5%;
+    margin-right: 50px
+}
 
 .container {
     width: auto;
@@ -52,65 +52,10 @@ img{
 
   <!-- formular für Einträge-->
   
-       table {
-           width: 80%;
-            text-align: center;
-            margin: auto; 
-            color: #000000;  
-        }
-        
-     td {
-           padding: 1%;
-        }
-  
-                label{
-                text-align: right;
-                float:left;
-                margin-right:15px;
-        }
-       
-    .formbox {
-           border: 1px solid #d9d9d9;     
-            width: 90%;
-            margin-left: 10%;
-            top: 50%;
-            left: 50%;
-            background: #FFF;
-            border-radius: 10px;
-            -webkit-border-radius:10px;
-            -moz-border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-            -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-            -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
-                    }
-      
-         span{
-            background: #fbfbfb;
-            display: block;
-            padding: 3px;
-            margin: 3px -2px -2px -2px;
-            text-align: center;
-            color: #C0C0C0;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 11px;          
-             } 
-
-      label{
-                text-align: right;
-                float:left;
-                margin-right:15px;
-        }
-        
-        td {
-           padding: 1%;
-           
-        }
+  <!-- Tabelle auf der Infoseite -->
         
         
-        <!-- Tabelle auf der Infoseite -->
-        
-        
-        .container {
+  .container {
     width: auto;
     max-width: 1250px;
     padding: 20px;
@@ -163,3 +108,47 @@ img{
         text-align:left;
         vertical-align:top;
        }
+       
+       
+       
+        table {
+            width: 90%;
+            text-align: center;
+            margin: auto; 
+            color: #000000;  
+        }
+        
+
+        label{
+                text-align: right;
+                float:left;
+                margin-right:15px;
+        }
+        
+        
+        .formbox {
+           border: 1px solid #d9d9d9;
+              
+            width: 80%;
+            margin-left: 10%;
+             top: 50%;
+              left: 50%;
+            background: #FFF;
+            border-radius: 10px;
+            -webkit-border-radius:10px;
+            -moz-border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+            -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+            -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+                    }
+      
+         span{
+    background: #fbfbfb;
+    display: block;
+    padding: 3px;
+    margin: 3px -2px -2px -2px;
+    text-align: center;
+    color: #C0C0C0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;          
+      }  

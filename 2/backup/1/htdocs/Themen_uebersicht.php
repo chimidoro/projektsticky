@@ -1,9 +1,10 @@
-            <?php include 'header.php';?>
+<?php include 'header.php';?>
+<?php include 'navi.php';?>
         
 <h4 class="card-title">Übersicht der aktuellen Seminar- / Abschlussarbeitsthemen </h4> 
        <h5>WiSe17/18</h5> <br>
    
-            <table align="center" valign="middle" class="tg" style="width:90%" >
+            <table class="tg" style="width:80%">
                   <tr>
                     <th class="tg-py0s">ID</th>
                      <th class="tg-py0s">Titel</th>
@@ -51,10 +52,8 @@
                     </td>
                   </tr> 
                  </table> 
-             <table align="center" valign="middle" style="width:90%" >
+             <table style="width:80%;">
              <tr><th><a href="/add.php"><img id="add" src="img/add.png" alt="add"></a></th></tr>
              </table> 
           
-              
-          <?php include 'navi.php';?>
-          <?php include 'footer.php';?>
+<?php include 'footer.php';?>

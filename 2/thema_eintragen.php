@@ -1,6 +1,9 @@
             <?php include 'header.php';?>
-           
 
+
+        
+        
+       
                 <h4 class="card-title">Titel hallihallo</h4> 
                          
                 <div class="formbox">
@@ -76,7 +79,10 @@
                             </table>   
                         </form>    
                 </div>
-        </div>
+
 
     <?php include 'navi.php';?>
-   <?php include 'footer.php';?>
+    <?php include 'footer.php';?>    
+    
+    </body>
+</html>
