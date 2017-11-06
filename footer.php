@@ -6,14 +6,14 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-3">
-                                <p>KONTAKT</p>
+                                <p>KONTAKT 111111</p>
                                 qweqwe<<br>>
                                 asdsd<br>
                                 faef<br>
                                 asd
                             </div>
                             <div class="col-3">
-                                <p>SOZIALE MEDIEN</p>
+                                <p>SOZIALE MEDIEN 2222</p>
                                 <div class="row">
                                     <div class="col-3">
                                         box

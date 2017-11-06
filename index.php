@@ -32,7 +32,7 @@
                   </tr>        
                 </table>
 
- <table class="tg">
+ <table  align="center" valign="middle" class="tg">
         <th class="tg-py0s"><a data-toggle="collapse"  style="color: #ffffff;" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Zentrale Bewerbung</a></th>
                 <tr><td style="padding:0px 5px;" class="tg-28r4"> 
                    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
