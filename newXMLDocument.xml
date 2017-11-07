@@ -1,0 +1,38 @@
+<?php include 'header.php';?>
+                    
+             
+<h4 class="card-title">Übersicht Seminar- / Abschlussarbeitsthemen </h4> 
+
+<table>
+           <tr>
+                    <th class="tg-py0s">Semester</th>
+                    <th class="tg-py0s">Thema</th>
+                    <th class="tg-py0s">Dozent</th>
+                    <th class="tg-py0s">Tags</th>
+          </tr>
+          <tr>
+                <select class="form-control">
+                <option>WiSe 17/18</option>
+                </select> 
+              <select class="form-control">
+                <option>Abschlussarbeit</option>
+                </select> 
+              <select class="form-control">
+                <option>Schuhmann</option>
+                </select> 
+              <select class="form-control">
+                <option>operative Systeme</option>
+                </select> 
+          </tr>       
+                  
+    <select class="form-control">
+        <option>Default select</option>
+    </select> 
+    
+                                  
+ </table>                   
+                    
+                    
+                    
+<?php include 'navi.php';?>
+<?php include 'footer.php';?>

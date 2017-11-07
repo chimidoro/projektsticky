@@ -1,12 +1,10 @@
-            <?php include 'header.php';?>
-
-                <h4 class="card-title">Titel hallihallo</h4> 
-                         
-                <div class="formbox">
-                        
+<?php include 'header.php';?>
+    <h4 class="card-title">Bewerbung</h4>   
+            
+                   
+                <div class="formbox">            
                         <form action="index.php" method="post">
                             <div class="card-header" style="margin-bottom: 2%"><h4><u>Thema eintragen</u></h4></div>
-                       
                             <table>
 
                              <tr>
@@ -74,11 +72,8 @@
                              
                             </table>   
                         </form>    
-                </div>
-
-
-    <?php include 'navi.php';?>
-    <?php include 'footer.php';?>    
-    
-    </body>
-</html>
+                </div>        
+                              
+            
+<?php include 'navi.php';?>
+<?php include 'footer.php';?>

@@ -32,10 +32,28 @@
                   </tr>        
                 </table>
 
- <table  align="center" valign="middle" class="tg">
-        <th class="tg-py0s"><a data-toggle="collapse"  style="color: #ffffff;" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Zentrale Bewerbung</a></th>
+<table  align="center" valign="middle" class="tg">
+        <th class="tg-py0s"><a data-toggle="collapse"  style="color: #ffffff;" href="#infos" aria-expanded="true" aria-controls="infos">Allgemeine Informationen</a></th>
                 <tr><td style="padding:0px 5px;" class="tg-28r4"> 
-                   <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                     <div id="infos" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                  
+                   <div class="card-body">Informationen blebb: <br><br>
+                   <ul>  
+                        ras sit amet nibh libero, in gravida nulla. Nulla vel metus scenatoque penatibus et magnnatibus et magnnatibus 
+                        et magnnatibus et magnnatibus et magn is dis parturient montes, nascetur ridiculus mus.
+                         
+                    </ul>          
+                  </td>
+              </div>
+             </div>  
+          </tr> 
+  </table>
+
+
+ <table  align="center" valign="middle" class="tg">
+        <th class="tg-py0s"><a data-toggle="collapse"  style="color: #ffffff;" href="#bewerbung" aria-expanded="false" aria-controls="bewerbung">Zentrale Bewerbung  &#x2BC6 </a></th>
+                <tr><td style="padding:0px 5px;" class="tg-28r4"> 
+                    <div class="collapse" id="bewerbung">
                    <div class="card-body">Über das Formular unter Angabe von: <br><br>
                    <ul>  
                         <li>Vorname</li> 
@@ -52,6 +70,10 @@
              </div>  
           </tr> 
   </table>
+
+ 
+
+<br> <br>
                 
           <?php include 'navi.php';?>
           <?php include 'footer.php';?>
