@@ -1,6 +1,5 @@
 <?php
 session_start();
-require_once('Models/benutzer_Model.php');
 include("header.php");
 include("db.php");
 ?>
@@ -25,15 +24,19 @@ include("db.php");
 
 <?php
 if (isset($_POST["einloggen"])) {       // Wenn das Formular abgeschickt wird 
-    
     $password = $_POST["passwort"];     // erfolgt erstmals eine Zwischenspeicherung der eingegebenen Variablen
     $benutzern = $_POST["benutzername"];
     
+<<<<<<< HEAD
     /*$statement = $pdo->prepare("SELECT id, passwort, benutzername, name, passwort FROM benutzer WHERE benutzername = :benutzername");
+=======
+    $statement = $pdo->prepare("SELECT passwort,id FROM benutzer WHERE benutzername = :benutzername");
+>>>>>>> 7dc2f16bc0672c370375c24f559aca57f030e394
     $statement->bindParam(':benutzername', $_POST['benutzername']);
     $statement->execute();
     
     $row = $statement->fetch(PDO::FETCH_ASSOC);
+<<<<<<< HEAD
     $pw = $row['passwort'];
     $pass_corr = password_verify($password, $pw);   // Das geholte password wird mit dem gesendeten Passwort mittels password_verify abgeglichen 
      
@@ -55,6 +58,11 @@ if (isset($_POST["einloggen"])) {       // Wenn das Formular abgeschickt wird
 
 
 
+=======
+    $pw = $row['passwort'] ;
+    $pass_corr = password_verify($password, $pw);   // Das geholte password wird mit dem gesendeten Passwort mittels password_verify abgeglichen 
+      
+>>>>>>> 7dc2f16bc0672c370375c24f559aca57f030e394
     if (!empty($password) && !empty($benutzern)) {  
         if ($pass_corr == TRUE) {              
              $_SESSION['login'] = $row['id']; // Loggt einen ein!           
