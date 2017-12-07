@@ -1,6 +1,6 @@
             <?php include 'header.php';?>
         
-<h4 class="card-title">ï¿½bersicht der aktuellen Seminar- / Abschlussarbeitsthemen </h4> 
+<h4 class="card-title">Übersicht der aktuellen Seminar- / Abschlussarbeitsthemen </h4> 
        <h5>WiSe17/18</h5> <br>
    
             <table align="center" valign="middle" class="tg" style="width:90%" >
@@ -23,7 +23,7 @@
                   </tr>  
                    <tr>
                     <td class="tg-28r4">2.</td>
-                    <td class="tg-28r4"> Entwickeln eines webbasierten Unterstï¿½tzungssystems zur Inhaltsstrukturierung und Formatentscheidung von Lerninhalten einer multimedialen Lernumgebung 
+                    <td class="tg-28r4"> Entwickeln eines webbasierten Unterstützungssystems zur Inhaltsstrukturierung und Formatentscheidung von Lerninhalten einer multimedialen Lernumgebung 
                                         in Anlehnung an das DO-ID-Modell</td>
                     <td class="tg-28r4">Freier, Pascal</td>
                     <td class="tg-28r4">WiSe17/18</td>
@@ -56,5 +56,5 @@
              </table> 
           
               
-          <?php include 'navi_student.php';?>
+          <?php include 'navi.php';?>
           <?php include 'footer.php';?>
