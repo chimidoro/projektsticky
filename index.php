@@ -1,11 +1,11 @@
             <?php include 'header.php';?>
      
                 <h4 class="card-title">Termine, Vergabe und Themen</h4>      
-                <h5>Veroeffentlichung der Themen</h5>
+                <h5>Veröffentlichung der Themen</h5>
     
                <block><ul> 
                Themen im <b>SEMESTER</b>
-               Werden am <b>DATUM</b> um <b>UHRZEIT</b> Uhr an dieser Stelle veroeffentlicht! </ul>
+               Werden am <b>DATUM</b> um <b>UHRZEIT</b> Uhr an dieser Stelle veröffentlicht! </ul>
                </block>
      
              <ul><h6>Termine im SEMESTER</h6> </ul>
@@ -15,7 +15,7 @@
                     <th class="tg-py0s">Termine und Zeitpunkte</th>
                   </tr>
                   <tr>
-                      <td class="tg-28r4"><b>Themenver�ffentlichung und Freischaltung des Formulars</b></td>
+                      <td class="tg-28r4"><b>Themenveröffentlichung und Freischaltung des Formulars</b></td>
                     <td class="tg-28r4">Freitag, 01.12.2017, 13.00 Uhr &gt;&gt; Formular zur Anmeldung (deaktiviert)</td>
                   </tr>
                   <tr>
@@ -67,7 +67,7 @@
         <tr style="width: 100%;">
             <td class="tg-28r4" style="padding:0px;"> 
                 <div id="bew" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-                   <div class="card-body">�ber das Formular unter Angabe von: <br><br>
+                   <div class="card-body">Über das Formular unter Angabe von: <br><br>
                    <ul>  
                         <li>Vorname</li> 
                         <li>Nachname</li> 
