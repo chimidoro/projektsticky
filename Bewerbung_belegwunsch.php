@@ -1,11 +1,14 @@
 <?php include 'header.php';?>
     <h4 class="card-title">Bewerbung -> Belegwunsch-Verfahren</h4>   
-                              
+            
+                   
                 <div class="formbox">            
                         <form action="bewerben.php" method="post">
                             <div class="card-header" style="margin-bottom: 4%"><h4><u>Bewerbung auf ein Seminar- oder Abschlussarbeitsthema</u></h4></div>
 
-                          <h6 style="background-color: #efefef; padding: 5px; margin: 5px; text-align: right;">persönliche Informationen</h6>       
+                          <h6 style="background-color: #efefef; padding: 5px; margin: 5px; text-align: right;">persönliche Informationen</h6>
+
+        
                             <table style="width: 100%">
                                 <tr style="width: 100%">
                                  <td style="width: 30%;"> <label style="padding-left: 5%;" for="inputVorname"><b>Vorname:</b> </label>  </td> 
@@ -26,6 +29,8 @@
                                  <td style="width: 30%;"> <label style="padding-left: 5%;" for="inputMail"><b>E-Mail:</b> </label>  </td> 
                                 <td style="width: 40%; padding-right: 5%;"><input type="text" class="form-control" id="inputMail" > </td> 
                                </tr>
+
+
                              <tr>
                                    <td style="width: 30%;"><label style="padding-left: 5%;" for="inputStudiengang"><b>Studiengang:</b> </label> </td>
                                     <td style="width: 50%; padding-right: 5%;"><select class="form-control" id="Studiengang">
