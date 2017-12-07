@@ -29,17 +29,32 @@ if (isset($_POST["einloggen"])) {       // Wenn das Formular abgeschickt wird
     $password = $_POST["passwort"];     // erfolgt erstmals eine Zwischenspeicherung der eingegebenen Variablen
     $benutzern = $_POST["benutzername"];
     
-    $statement = $pdo->prepare("SELECT id, passwort, benutzername, name, passwort FROM benutzer WHERE benutzername = :benutzername");
+    /*$statement = $pdo->prepare("SELECT id, passwort, benutzername, name, passwort FROM benutzer WHERE benutzername = :benutzername");
     $statement->bindParam(':benutzername', $_POST['benutzername']);
     $statement->execute();
     
-     $row = $statement->fetch(PDO::FETCH_ASSOC);
+    $row = $statement->fetch(PDO::FETCH_ASSOC);
     $pw = $row['passwort'];
     $pass_corr = password_verify($password, $pw);   // Das geholte password wird mit dem gesendeten Passwort mittels password_verify abgeglichen 
      
-    new login($row);
-    echo login->getId();
-  
+    $daten = new login();
+    $daten->construct($row);
+    echo $daten->getId(); */
+    $statement = $pdo->prepare("SELECT id, passwort, benutzername, name, passwort FROM benutzer WHERE benutzername = ?");
+    $statement->execute(array($benutzern));
+    $row = $statement->fetch();
+    $pw = $row['passwort'];
+    echo $row['passwort'] . "<br />";
+    echo $pw. "<br />";
+    $pass_corr = password_verify($password, $pw);   // Das geholte password wird mit dem gesendeten Passwort mittels password_verify abgeglichen 
+    $daten = new login();
+    $daten->construct($row);
+    echo $daten->getId(). "<br />";
+    echo $daten->getBenutzername(). "<br />";
+    echo $daten->getpasswort();
+
+
+
     if (!empty($password) && !empty($benutzern)) {  
         if ($pass_corr == TRUE) {              
              $_SESSION['login'] = $row['id']; // Loggt einen ein!           
