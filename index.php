@@ -14,7 +14,7 @@
                         <th class="tg-py0s">Informationen</th>
                         <th class="tg-py0s">Termine und Zeitpunkte</th>
             </tr>
-                  <tr>
+            <tr>
                               <td class="tg-28r4"><b>Themenveröffentlichung und Freischaltung des Formulars</b></td>
                               <td class="tg-28r4">Freitag, 01.12.2017, 13.00 Uhr &gt;&gt; Formular zur Anmeldung (deaktiviert)</td>
             </tr>
