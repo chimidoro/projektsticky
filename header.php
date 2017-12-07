@@ -42,7 +42,7 @@
                 <a href="#">Karriere und Alumni</a>       
                 <a href="/login.php">Login</a>
             </nav>
-            <!-- Rechte Navigationssleiste -->  
+            <!-- Content-Bereich -->  
             <div class="container">
                 <div class="row">
                     <div class="col-8">
