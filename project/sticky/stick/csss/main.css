@@ -1,5 +1,4 @@
-/* Sticky footer styles
--------------------------------------------------- */
+
 html {
     font-size:12px;
     position: relative;
@@ -36,7 +35,15 @@ img{
     border-top: 4px solid #1d71a2;
     margin: 5%;
     padding: 5%;
-    margin-right: 50px
+    margin-right: 50px;
+}
+
+.nav_bar{   
+    font-size: 12px;
+    width: 100%;
+    height: 20%;
+    background-color: #efefef;
+    nargin: 2%;
 }
 
 .container {
@@ -47,7 +54,7 @@ img{
 
 
   <!-- Tabelle auf der Infoseite -->
-        
+
         
 
        .tg  {
@@ -70,6 +77,8 @@ img{
            color:#444;
            background-color:#ffffff;
        }
+
+        
        
        .tg th{
            font-family:Arial, sans-serif;
@@ -84,28 +93,33 @@ img{
            border-color:#999;
            color:#fff;
            background-color:#26ADE4;
+           
        }
        
        .tg .tg-py0s{
            font-weight:bold;
            text-align:left;
            background-color:#3979b5;
-           vertical-align:top;          
+           vertical-align:top;   
+
        }      
+       
+
+       
        .tg .tg-28r4{
        font-size: 13px;
         text-align:left;
         vertical-align:top;
+      
        }
+       
        
  
   <!-- formular für Einträge-->
   
        
         table {
-
             width: 95%;
-            margin: auto; 
             color: #000000;  
             
         }
@@ -113,6 +127,7 @@ img{
 
         label{
               margin-right: 25px;
+              
                text-align:left;
                 float:left;    
                 padding-bottom: 5%;
@@ -132,6 +147,19 @@ img{
             -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
             -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
                     }
+                    
+                    
+          .logform {
+            font-size:12px;
+            border: 1px solid #d9d9d9;           
+            width: 50%;
+            margin-left: 15%;
+            background: #FFF;
+                    }
+                    
+                    .logform input{
+                        margin: 2%;
+                    }
       
          span{
     font-size: 10px; 
@@ -147,12 +175,104 @@ img{
       
         <!-- Üeberschrift bei Bewerbungen -->
         
-        .bewue{
+        bewue {
     width: 80%;
     background-color: #efefef;
     border-top: 4px solid #1d71a2;
     margin: 5%;
     padding: 5%;
-    margin-right: 50px
             
         }
+        .navbereich{
+            background-color: #3979b5;
+            width: 100%;
+            height: 10%;
+            text-align: center;
+            position:relative;
+            margin-top:0.1%;
+            padding: 0.2%;
+        }
+        
+     .navbereich a:link {
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 1%;
+    text-transform: uppercase;
+}
+
+/* visited link */
+.navbereich a:visited {
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 1%;
+    text-transform: uppercase;
+}
+
+/* mouse over link */
+.navbereich a:hover {
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 1%;
+    text-transform: uppercase;
+}
+
+/* selected link */
+.navbereich a:active {
+    color: #ffffff;
+    font-size: 20px;
+    padding-left: 1%;
+    text-transform: uppercase;
+}  
+    
+
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}

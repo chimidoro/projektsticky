@@ -36,7 +36,7 @@ img{
     border-top: 4px solid #1d71a2;
     margin: 5%;
     padding: 5%;
-    margin-right: 50px
+    margin-right: 50px;
 }
 
 .container {
@@ -102,15 +102,8 @@ img{
   <!-- formular für Einträge-->
   
        
-       td{
-          
-          
-       }
-       
         table {
-
             width: 95%;
-            text-align: center;
             margin: auto; 
             color: #000000;  
             
@@ -119,7 +112,7 @@ img{
 
         label{
               margin-right: 25px;
-                         text-align:left;
+               text-align:left;
                 float:left;    
                 padding-bottom: 5%;
         }
@@ -150,3 +143,14 @@ img{
     font-family: Arial, Helvetica, sans-serif;
             
       }  
+      
+        <!-- Üeberschrift bei Bewerbungen -->
+        
+        bewue {
+    width: 80%;
+    background-color: #efefef;
+    border-top: 4px solid #1d71a2;
+    margin: 5%;
+    padding: 5%;
+            
+        }
