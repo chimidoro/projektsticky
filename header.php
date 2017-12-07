@@ -14,6 +14,10 @@
 
         <link href="css/main.css" rel="stylesheet">  
         
+        
+        
+        
+        
         <!--Eigene CSS: Verwaltungsseite Buttons -->
         <link href="css/verwaltung.css" rel="stylesheet">
     </head>
@@ -24,7 +28,6 @@
             <header>
                 <div class="header">
                     <a href="https://www.uni-goettingen.de/"><img id="logo" src="./img/logo.png" alt="Georg-August-UniversitÃ¤t GÃ¶ttingen"></a>
-                    <h1>Georg-August-Universität Göttingen</h1>
                 </div>
             </header>
 
