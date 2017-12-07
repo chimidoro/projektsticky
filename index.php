@@ -15,7 +15,7 @@
                     <th class="tg-py0s">Termine und Zeitpunkte</th>
                   </tr>
                   <tr>
-                      <td class="tg-28r4"><b>Themenveröffentlichung und Freischaltung des Formulars</b></td>
+                      <td class="tg-28r4"><b>Themenverï¿½ffentlichung und Freischaltung des Formulars</b></td>
                     <td class="tg-28r4">Freitag, 01.12.2017, 13.00 Uhr &gt;&gt; Formular zur Anmeldung (deaktiviert)</td>
                   </tr>
                   <tr>
@@ -67,7 +67,7 @@
         <tr style="width: 100%;">
             <td class="tg-28r4" style="padding:0px;"> 
                 <div id="bew" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
-                   <div class="card-body">Über das Formular unter Angabe von: <br><br>
+                   <div class="card-body">ï¿½ber das Formular unter Angabe von: <br><br>
                    <ul>  
                         <li>Vorname</li> 
                         <li>Nachname</li> 
@@ -86,5 +86,5 @@
 
 <br> <br>
                 
-          <?php include 'navi.php';?>
+          <?php include 'navi_student.php';?>
           <?php include 'footer.php';?>

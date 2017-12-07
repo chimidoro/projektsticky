@@ -56,5 +56,5 @@
              </table> 
           
               
-          <?php include 'navi_student.php';?>
+          <?php include 'navi.php';?>
           <?php include 'footer.php';?>

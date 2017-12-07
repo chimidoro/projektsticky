@@ -40,7 +40,7 @@
                 <a href="#">Studierende</a>
                 <a href="#">Studieninteressierte</a>
                 <a href="#">Karriere und Alumni</a>       
-                <a href="/login.php">Login</a>
+                <a href="login.php">Login</a>
             </nav>
             <!-- Rechte Navigationssleiste -->  
             <div class="container">
