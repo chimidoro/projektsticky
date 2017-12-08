@@ -40,7 +40,7 @@
                         <td class="tg-28r4" style="padding:0px;"> 
                                     <div id="infos" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">         
                                     <div class="card-body"> Informationen blebb:<br><br>
-                        <ul>  
+                        <ul> 
                         ras sit amet nibh libero, in gravida nulla. Nulla vel metus scenatoque penatibus et magnnatibus et magnnatibus 
                         et magnnatibus et magnnatibus et magn is dis pibh libero, in gravida nulla. Nulla vel metus scenatoque penatibus et magnnatibus et magnnatibus 
                         et magnnatibus et magnnatibus et magn is dis pibh libero, in gravida nulla. Nulla vel metus scenatoque penatibus et magnnatibus et magnnatibus 
