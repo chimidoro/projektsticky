@@ -34,7 +34,7 @@
                              </tr>
 
                               <tr>
-                                 <td style="width: 20%;"><label style="padding-left: 5%;"  for="Vorraussetzung" ><b>Zulassungsvorraussetzung:</b></label>  </td> 
+                                 <td style="width: 20%;"><label style="padding-left: 5%;"  for="Vorraussetzung" ><b>Zulassungsvoraussetzung:</b></label>  </td> 
                                  <td><input type="text" class="form-control" name="Vorraussetzng" placeholder="(Optional)" id="form-control"></td>                             
                              </tr>
                              
