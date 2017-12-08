@@ -4,14 +4,13 @@
 
 <!-- Box in der Navigation auf der rechten Seite -->
 <div class="col-4">
-    <button type="button" class="btn btn-info">Info</button>
 
     <div class="nav_box">
         <h5 class="mt-0">Links</h5>
         <a href="index.php">Infoseite</a><br>
-        <a href="themen_uebersicht.php">Themenübersicht</a><br>
-        <a href="">Platzhalter</a><br>
-        <a href="">Platzhalter</a>
+        <a href="themen_uebersicht_student.php">ThemenÃ¼bersicht</a><br>
+        <a href="">z.B Links zu Professurenseiten</a><br>
+        <a href="">z.B Downloadlink der Folien der Informationsveranstaltung</a>
     </div>
     <div class="nav_box">
         <h5 class="mt-0">Kontakt</h5>
