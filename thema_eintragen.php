@@ -34,12 +34,12 @@
                              </tr>
 
                               <tr>
-                                 <td style="width: 20%;"><label style="padding-left: 5%;"  for="Vorraussetzung" ><b>Zulassungsvoraussetzung:</b></label>  </td> 
-                                 <td><input type="text" class="form-control" name="Vorraussetzng" placeholder="(Optional)" id="form-control"></td>                             
+                                 <td style="width: 20%;"><label style="padding-left: 5%;"  for="Voraussetzung" ><b>Zulassungsvoraussetzung:</b></label>  </td> 
+                                 <td><input type="text" class="form-control" name="Voraussetzng" placeholder="(Optional)" id="form-control"></td>                             
                              </tr>
                              
                                 <tr>
-                                   <td style="width: 30%;"><label style="padding-left: 5%;" for="bevStudiengang"><b>bevorzugter Studiengang:</b> </label></td>
+                                   <td style="width: 30%;"><label style="padding-left: 5%;" for="bevStudiengang"><b>Bevorzugter Studiengang:</b> </label></td>
                                     <td><select class="form-control" id="bevStudiengang">
                                     <option>Keiner</option>
                                     <option>Betriebswirtschaftslehre</option>
@@ -69,7 +69,7 @@
                              </tr>
                              <tr>
 
-                              <td>    <button style="margin: 10%;" type="button" class="btn btn-primary">Primary</button> </td>       
+                              <td>    <button style="margin: 10%;" type="button" class="btn btn-primary">Einreichen</button> </td>       
                              </tr>
                              
                             </table>   
