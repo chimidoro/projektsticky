@@ -1,7 +1,45 @@
 <?php include 'header.php'; ?>
 
-<h4 class="card-title">�bersicht der aktuellen Seminar- / Abschlussarbeitsthemen </h4> 
-<h5>WiSe17/18</h5> <br>
+<h4 class="card-title">Übersicht der aktuellen Seminar- / Abschlussarbeitsthemen </h4> 
+<br>
+
+<div style="text-align: center">
+    <table style="width: 100%;text-align: center">
+           <tr>
+                <th style="width: 20%; padding-right:2%;" class="tg-py0s">Semester</th>
+                <th style="width: 20%; padding-right:2%;" class="tg-py0s">Art</th>
+                <th style="width: 20%; padding-right:2%;" class="tg-py0s">Betreuer</th>
+                <th style="width: 20%; padding-right:2%;" class="tg-py0s">Tags</th>
+                <th style="width: 20%; padding-right:2%;" class="tg-py0s">Verf�gbarkeit</th>
+            </tr>
+            <tr>
+                <td class="tg-28r4"><select style="width: 80%;" class="form-control">
+                    <option>WiSe 17/18</option>
+                </select> </td>
+                
+                <td class="tg-28r4"><select style="width: 80%;" class="form-control">
+                <option>Achlussarbeit</option>
+                <option>Seminararbeit</option>
+                </select> </td>
+                
+                <td class="tg-28r4"><select style="width: 80%;" class="form-control">
+                    <option>Schuhmann</option>
+                </select> </td>
+
+                <td class="tg-28r4"><select style="width: 90%;" class="form-control">
+                    <option>operative Systeme</option>
+                </select> </td>
+
+                <td class="tg-28r4"><select  style="width: 80%;" class="form-control">
+                <option>Verf�gbar</option>
+                <option>Vergeben</option>
+                </select> </td>
+
+            </tr>                                                   
+    </table>
+   </div>
+<br>
+
 
 <!-- Tabelle 1 Belegwunsch -->
 <table class="tg" style="width: 100%;  margin: 1px;">   <!--Thema der Anmeldung mit sufklappbaren Unterthemen-->
@@ -14,6 +52,9 @@
         <td class="tg-28r4" style="padding:0px;"> 
 
             <div id="id1" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">   
+                
+                <!-- durch Tags ersetzbar-->
+                
                 <div class="blue">
                     allgemeine Informationen <!--<a href="#" class="btn btn-info active btn-sm" role="button" aria-pressed="true" style="float: right;">mehr Infos</a>-->
                 </div>
@@ -97,11 +138,11 @@
         <td class="tg-28r4" style="padding:0px;"> 
 
             <div id="id2" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">   
-                <div class="blue">
-                    allgemeine Informationen <!--<a href="#" class="btn btn-info active btn-sm" role="button" aria-pressed="true" style="float: right;">mehr Infos</a>-->
-                </div>
+                <!--<div class="blue">
+                    allgemeine Informationen <!--<a href="#" class="btn btn-info active btn-sm" role="button" aria-pressed="true" style="float: right;">mehr Infos</a>
+                </div>-->
 
-                <table align="center" valign="middle" class="tg" style="width:100%" >
+                                <!--<table align="center" valign="middle" class="tg" style="width:100%" >
                     <tr>
                         <th class="tg-py0s">Verfahren</th>
                         <th class="tg-py0s">Anmeldebeginn</th>
@@ -118,7 +159,7 @@
                             consetetur sadipscing elitr, sed diam nonumy eirmod
                         </td>
                     </tr>  
-                </table>
+                </table>-->
                 <div class="blue">
                     Themenliste <!--<a href="#" class="btn btn-info active btn-sm" role="button" aria-pressed="true" style="float: right;">mehr Infos</a>-->
                 </div>
@@ -181,11 +222,11 @@
         <td class="tg-28r4" style="padding:0px;"> 
 
             <div id="id3" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">   
-                <div class="blue">
-                    allgemeine Informationen <!--<a href="#" class="btn btn-info active btn-sm" role="button" aria-pressed="true" style="float: right;">mehr Infos</a>-->
-                </div>
+                <!--<div class="blue">
+                    allgemeine Informationen <!--<a href="#" class="btn btn-info active btn-sm" role="button" aria-pressed="true" style="float: right;">mehr Infos</a>
+                </div>-->
 
-                <table align="center" valign="middle" class="tg" style="width:100%" >
+                               <!--<table align="center" valign="middle" class="tg" style="width:100%" >
                     <tr>
                         <th class="tg-py0s">Verfahren</th>
                         <th class="tg-py0s">Anmeldebeginn</th>
@@ -202,7 +243,7 @@
                             consetetur sadipscing elitr, sed diam nonumy eirmod
                         </td>
                     </tr>  
-                </table>
+                </table>-->
                 <div class="blue">
                     Themenliste <!--<a href="#" class="btn btn-info active btn-sm" role="button" aria-pressed="true" style="float: right;">mehr Infos</a>-->
                 </div>
