@@ -6,7 +6,7 @@
                         <form action="bewerben.php" method="post">
                             <div class="card-header" style="margin-bottom: 4%"><h4><u>Bewerbung auf ein Seminar- oder Abschlussarbeitsthema</u></h4></div>
 
-                          <h6 style="background-color: #efefef; padding: 5px; margin: 5px; text-align: right;">persönliche Informationen</h6>
+                          <h6 style="background-color: #efefef; padding: 5px; margin: 5px; text-align: right;">persï¿½nliche Informationen</h6>
 
         
                             <table style="width: 100%">
@@ -38,7 +38,7 @@
                                     <option>Wirtschaftsinformatik</option>
                                     <option>Betriebswirtschaftslehre</option>
                                     <option>Volkswirtschaftslehre</option>
-                                    <option>Wirtschaftspädagogik</option>
+                                    <option>Wirtschaftspï¿½dagogik</option>
                                     </select></td>
                                 </tr>
 
@@ -111,5 +111,5 @@
                 </div>        
                               
             
-<?php include 'navi.php';?>
+<?php include 'navi_student.php';?>
 <?php include 'footer.php';?>
