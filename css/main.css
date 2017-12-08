@@ -217,3 +217,15 @@ label{
     margin: 2%;
 }
 /* ENDE CSS für Login */
+
+
+/* CSS themen_uebersicht_student*/
+.blue{
+    font-weight:bold;
+    text-align:left;
+    background-color:#3979b5;
+    vertical-align:top;  
+    color:#FFF;
+    font-size:14px;
+    padding:10px 5px;
+}      

@@ -22,11 +22,7 @@ echo "    </ul>";
 echo "<a href=logout.php>logout</a>";
 echo "</div>";
    }
-?>
-   
-testaerqrqweqr
 
-<?php
 include("navi.php");
 include("footer.php");
 ?>
