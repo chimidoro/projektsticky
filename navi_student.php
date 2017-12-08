@@ -2,7 +2,7 @@
 </div>
 </div>
 
-<!-- Box in der Navigation auf der rechten Seite -->
+<!-- Boxen der Navigation auf der rechten Seite -->
 <div class="col-4">
 
     <div class="nav_box">

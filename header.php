@@ -31,18 +31,19 @@
                 </div>
             </header>
 
-            <!-- Obere Navigation -->          
+            <!-- Obere Navigationsleiste -->          
             <nav class="navbereich" style="background-color: #3979b5">
-                <a href="#">Aktuelles</a>
-                <a href="#">Die Fakultät</a>
-                <a href="#">Forschung</a>
-                <a href="#">International</a>
-                <a href="#">Studierende</a>
-                <a href="#">Studieninteressierte</a>
-                <a href="#">Karriere und Alumni</a>       
+                <a href="http://www.uni-goettingen.de/de/aktuelles/13401.html">Aktuelles</a>
+                <a href="http://www.uni-goettingen.de/de/die+fakult%c3%a4t/13567.html">Die Fakultät</a>
+                <a href="http://www.uni-goettingen.de/de/forschung/13500.html">Forschung</a>
+                <a href="http://www.uni-goettingen.de/de/forschung/13500.html">International</a>
+                <a href="http://www.uni-goettingen.de/de/studierende/13518.html">Studierende</a>
+                <a href="http://www.uni-goettingen.de/de/studieninteressierte/318444.html">Studieninteressierte</a>
+                <a href="http://www.uni-goettingen.de/de/karriere+und+alumni/209102.html">Karriere und Alumni</a>       
                 <a href="login.php">Login</a>
             </nav>
-            <!-- Rechte Navigationssleiste -->  
+            
+            <!-- Beginn des Inhalts -->  
             <div class="container">
                 <div class="row">
                     <div class="col-8">

@@ -6,7 +6,7 @@
 
 <table class="tg" style="width: 100%;  margin: 1px;">
     <th class="tg-py0s"> 
-        <a  style="color: #ffffff; " data-toggle="collapse" href="#infos" aria-expanded="true" aria-controls="infos">Projektseminar: Entwicklung von Webapplikationen</a>
+        <a  style="color: #ffffff; " data-toggle="collapse"  href="#infos" aria-expanded="true" aria-controls="infos">Projektseminar: Entwicklung von Webapplikationen</a>
         <button type="button" class="btn btn-secondary disabled btn-sm" style="float: right;">Anmeldung gesperrt</button> 
         <a href="#" class="btn btn-success active btn-sm" role="button" aria-pressed="true" style="float: right;">zur Anmeldung</a>
     </th>
