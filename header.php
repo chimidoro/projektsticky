@@ -1,4 +1,6 @@
-<!DOCTYPE html>       
+<!DOCTYPE html>     
+<!-- Anfang von jedem View, per include eingebunden-->
+
 <html lang="de">
     <head>        
         <title>Georg-August-Universität Göttingen</title> 
@@ -14,7 +16,7 @@
 
         <link href="css/main.css" rel="stylesheet">  
         
-        
+        <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
         
         
         

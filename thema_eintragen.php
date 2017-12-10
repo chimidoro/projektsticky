@@ -77,7 +77,7 @@
                 </div>
 
 
-    <?php include 'navi.php';?>
+    <?php include 'navi_thema_eintragen.php';?>
     <?php include 'footer.php';?>    
     
     </body>
