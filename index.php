@@ -10,82 +10,50 @@
 <div class="info"> <!-- Tabelle mit Informationen und Collapsefunktion -->
 
     <table class="tg" style="width: 100%;  margin: 1px;">
-        <th class="tg-py0s"> 
-            <a  style="color: #ffffff; " data-toggle="collapse" href="#infos" aria-expanded="true" aria-controls="infos">
-                <i class="fas fa-caret-right fa-lg"></i> Allgemeine Informationen
-            </a> 
+
+        <th class="tg-py0s">
+            <div class="accordion-group accordion-caret" data-toggle="collapse" href="#collapseOne" >
+                <div class="accordion-heading">
+                    <a style="color: #ffffff;" class="accordion-toggle" data-toggle="collapse" href="#collapseOne">
+                        <strong>Header</strong>
+                    </a>
+                </div>
+            </div>
         </th>
         <tr style="width: 100%;">
             <td class="tg-28r4" style="padding:0px;"> 
-                <div id="infos" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">         
+
+
+                <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" >         
                     <div class="card-body"> <h4>Testbox </h4><br>
                         <p>
-                            <i class="fas fa-spinner fa-spin"></i>
-                            
-                            
 
 
-<div class="btn-group">
-  <button type="button" class="btn btn-danger">Action</button>
-  <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">
-    <span class="glyphicon glyphicon-minus"></span>
-  </button>
-</div>
-<div id="demo" class="collapse in">Some dummy text in here.</div>
+                        <div id="collapseOne" class="accordion-body collapse in">           <!-- Text im collapse-->
+                            <div class="accordion-inner">
+                                Content
+                            </div>
+                        </div>
 
 
 
+                        <button type="button"
+                                onclick="document.getElementById('demo').innerHTML = Date()">
+                            Click me to display Date and Time.</button>
+                        <p id="demo"></p><br>
 
 
-<div class="container">
-<div class="panel-group" id="accordion">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-          <span class="glyphicon glyphicon-minus"></span>
-          Collapsible Group Item #1
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse in">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-          <span class="glyphicon glyphicon-plus"></span>
-          Collapsible Group Item #2
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-          <span class="glyphicon glyphicon-plus"></span>
-          Collapsible Group Item #3
-        </a>
-      </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse">
-      <div class="panel-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-</div>
-</div>
+                        <i class="fas fa-spinner fa-spin"></i><br>
+
+
+
+
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">
+                                <span class="glyphicon glyphicon-minus"></span>
+                            </button>
+                        </div>
+                        <div id="demo" class="collapse in">Some dummy text in here.</div>
 
 
 
@@ -99,9 +67,9 @@
                         <ol>
                             <li>Informieren Sie sich auf dieser Informationsseite über die verschiedenen Vergabeverfahren.</li>
                             <li>Suchen Sie auf der folgenden Seite nach den passenden Modulen/Themen.<br>
-                            <a href="#">zur Themenübersicht</a></li>
+                                <a href="#">zur Themenübersicht</a></li>
                             <li>Wenn sie das passende Thema gefunden haben, klicken sie auf den grünen Button.<br>
-                            Sie werden dadurch zu dem Anmeldeformular weitergeleitet</li>
+                                Sie werden dadurch zu dem Anmeldeformular weitergeleitet</li>
                         </ol>
                         </p>
                     </div>
