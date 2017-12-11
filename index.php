@@ -15,7 +15,7 @@
             <div class="accordion-group accordion-caret" data-toggle="collapse" href="#collapseOne" >
                 <div class="accordion-heading">
                     <a style="color: #ffffff;" class="accordion-toggle" data-toggle="collapse" href="#collapseOne">
-                        <strong>Header</strong>
+                        <strong>Allgemeine Informationen</strong>
                     </a>
                 </div>
             </div>
@@ -29,17 +29,10 @@
                         <p>
 
 
-                        <div id="collapseOne" class="accordion-body collapse in">           <!-- Text im collapse-->
-                            <div class="accordion-inner">
-                                Content
-                            </div>
-                        </div>
 
-
-
-                        <button type="button"
-                                onclick="document.getElementById('demo').innerHTML = Date()">
-                            Click me to display Date and Time.</button>
+                            <button type="button"
+                                    onclick="document.getElementById('demo').innerHTML = Date()">
+                                Click me to display Date and Time.</button>
                         <p id="demo"></p><br>
 
 
@@ -73,16 +66,24 @@
                         </ol>
                         </p>
                     </div>
+                </div>
             </td>           
         </tr> 
     </table>
     <table class="tg" style="width: 100%;  margin: 1px;">
-        <th class="tg-py0s"> 
-            <a  style="color: #ffffff; " data-toggle="collapse" href="#verf" aria-expanded="true" aria-controls="verf">Informationen zu den Verfahren</a> 
+        <th class="tg-py0s">
+            <div class="accordion-group accordion-caret" data-toggle="collapse" href="#collapseTwo" >
+                <div class="accordion-heading">
+                    <a style="color: #ffffff;" class="accordion-toggle" data-toggle="collapse" href="#collapseTwo">
+                        <strong>Informationen zu den Bewerbungsverfahren</strong>
+                    </a>
+                </div>
+            </div>
         </th>
         <tr style="width: 100%;">
             <td class="tg-28r4" style="padding:0px;"> 
-                <div id="verf" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">         
+
+                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion" >                     
                     <div class="card-body"> <h4>Wie funktionieren die Verfahren?</h4><br>
                         <p>
                             Wie funktioniert shdas <b>Bewerbungsverfahren</b>?
@@ -107,23 +108,30 @@
                             Trotzdessen ist es keine Garantie, dass sie ihre Belegwünsche bekommen. Alle Anmeldungen werden zeitunabhängig innerhalb der Bewerbungsfrist gleichwertig behandelt.
                             Nach Ende der Frist bekommen sie eine Benachrichtigung in welcher Veranstaltung Sie zugeteilt wurden.
                         </p>
-                    </div>
+                    </div>             
 
                     <div class="card-body"> <h4>Nachrückverfahren</h4><br>
                         <p>
                             Falls nach der Ablauf der Vergabefrist noch Plätze übrig sind, werden diese nachträglich im Windhundverfahren (in der Regel mit der Dauer von 1 Woche) vergeben.
                         </p>
                     </div>
+                </div>
             </td>           
         </tr> 
     </table>
     <table class="tg" style="width: 100%;  margin: 1px;">
-        <th class="tg-py0s"> 
-            <a  style="color: #ffffff;" data-toggle="collapse" href="#bew" aria-expanded="true" aria-controls="bew">Zentrale Bewerbung</a> 
+        <th class="tg-py0s">
+            <div class="accordion-group accordion-caret" data-toggle="collapse" href="#collapseThree" >
+                <div class="accordion-heading">
+                    <a style="color: #ffffff;" class="accordion-toggle" data-toggle="collapse" href="#collapseThree">
+                        <strong>Informationen zu den Bewerbungsverfahren</strong>
+                    </a>
+                </div>
+            </div>
         </th>
         <tr style="width: 100%;">
             <td class="tg-28r4" style="padding:0px;"> 
-                <div id="bew" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
                     <div class="card-body">Über das Formular unter Angabe von: <br><br>
                         <ul>  
                             <li>Vorname</li> 
