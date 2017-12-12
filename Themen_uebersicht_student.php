@@ -49,10 +49,9 @@ Lorem ipsum dolor text....
 <!-- Tabelle 2 Bewerbungsverfahren -->
 <table class="tg" style="width: 100%;  margin: 1px;">   <!--Thema der Anmeldung mit sufklappbaren Unterthemen-->
     <th class="tg-py0s"> 
-        <a  style="color: #ffffff; " data-toggle="collapse"  href="#id2" aria-expanded="true" aria-controls="id2">Projektseminar: Entwicklung von Webapplikationen</a>
+        <a  style="color: #ffffff; " data-toggle="collapse"  href="#id2" aria-expanded="true" aria-controls="id2"><span class="badge badge-primary" data-toggle="tooltip" title="Art des Themas"> Seminarthemen</span> Projektseminar: Entwicklung von Webapplikationen</a>
         <button type="button" class="btn btn-danger active btn-lg" style="float: right; min-width: 190px;" data-toggle="tooltip" title="Der Anmeldezeitraum ist leider abgelaufen">Anmeldung gesperrt</button>   <!--Button mit Tooltip-->
         <br>    <!-- Beginn Infolabels -->
-        <span class="badge badge-info" data-toggle="tooltip" title="Art des Themas">Seminarthemen</span>
         <span class="badge badge-info" data-toggle="tooltip" title="Semester">WiSe 17/18</span>
         <span class="badge badge-info" data-toggle="tooltip" title="Art des Verfahrens">Bewerbungsverfahren</span> 
         <span class="badge badge-info" data-toggle="tooltip" title="Anmeldezeitraum">Anmeldung von X bis Y</span>
@@ -178,6 +177,99 @@ Lorem ipsum dolor text....
                         <th class="tg-py0s">Semester</th>
                         <th class="tg-py0s">Verfügbarkeit</th>
                     </tr>
+                    <tr>
+                        <td class="tg-28r4">1.</td>
+                        <td class="tg-28r4"> Entwicklung einer webbasierten Anwendung zur Vergabe von Seminar- / Abschlussarbeitsthemen mit unterschiedlichen Verfahren 
+                            (Bewerbungs-, Belegungswunsch-, Windhund-Verfahren)</td>
+                        <td class="tg-28r4">Freier, Pascal</td>
+                        <td class="tg-28r4">WiSe17/18</td>
+                        <td class="tg-28r4">ja</td>
+                    </tr>  
+                    <tr>
+                        <td class="tg-28r4">2.</td>
+                        <td class="tg-28r4"> Entwickeln eines webbasierten Unterstützungssystems zur Inhaltsstrukturierung und Formatentscheidung von Lerninhalten einer multimedialen Lernumgebung 
+                            in Anlehnung an das DO-ID-Modell</td>
+                        <td class="tg-28r4">Freier, Pascal</td>
+                        <td class="tg-28r4">WiSe17/18</td>
+                        <td class="tg-28r4">ja</td>
+                    </tr> 
+                    <tr>
+                        <td class="tg-28r4">3.</td>
+                        <td class="tg-28r4">  Entwickeln einer webbasierten Anwendung zur automatisierten Platzzuweisung bei der anonymen Klausur</td>
+                        <td class="tg-28r4">Freier, Pascal</td>
+                        <td class="tg-28r4">WiSe17/18</td>
+                        <td class="tg-28r4">ja</td>
+                    </tr> 
+                    <tr>
+                        <td class="tg-28r4">4.</td>
+                        <td class="tg-28r4" > Entwicklung einer webbasierten Anwendung zur Vergabe von Seminar- / Abschlussarbeitsthemen mit unterschiedlichen Verfahren 
+                            (Bewerbungs-, Belegungswunsch-, Windhund-Verfahren)</td>
+                        <td class="tg-28r4">Freier, Pascal</td>
+                        <td class="tg-28r4">WiSe17/18</td>
+                        <td class="tg-28r4">nein</td>
+                    </tr> 
+                    <tr>
+                        <td class="tg-28r4">1.</td>
+                        <td class="tg-28r4"> Entwicklung einer webbasierten Anwendung zur Vergabe von Seminar- / Abschlussarbeitsthemen mit unterschiedlichen Verfahren 
+                            (Bewerbungs-, Belegungswunsch-, Windhund-Verfahren)</td>
+                        <td class="tg-28r4">Freier, Pascal</td>
+                        <td class="tg-28r4">WiSe17/18</td>
+                        <td class="tg-28r4">ja</td>
+                    </tr>  
+                    <tr>
+                        <td class="tg-28r4">2.</td>
+                        <td class="tg-28r4"> Entwickeln eines webbasierten Unterstützungssystems zur Inhaltsstrukturierung und Formatentscheidung von Lerninhalten einer multimedialen Lernumgebung 
+                            in Anlehnung an das DO-ID-Modell</td>
+                        <td class="tg-28r4">Freier, Pascal</td>
+                        <td class="tg-28r4">WiSe17/18</td>
+                        <td class="tg-28r4">ja</td>
+                    </tr> 
+                    <tr>
+                        <td class="tg-28r4">3.</td>
+                        <td class="tg-28r4">  Entwickeln einer webbasierten Anwendung zur automatisierten Platzzuweisung bei der anonymen Klausur</td>
+                        <td class="tg-28r4">Freier, Pascal</td>
+                        <td class="tg-28r4">WiSe17/18</td>
+                        <td class="tg-28r4">ja</td>
+                    </tr> 
+                    <tr>
+                        <td class="tg-28r4">4.</td>
+                        <td class="tg-28r4" > Entwicklung einer webbasierten Anwendung zur Vergabe von Seminar- / Abschlussarbeitsthemen mit unterschiedlichen Verfahren 
+                            (Bewerbungs-, Belegungswunsch-, Windhund-Verfahren)</td>
+                        <td class="tg-28r4">Freier, Pascal</td>
+                        <td class="tg-28r4">WiSe17/18</td>
+                        <td class="tg-28r4">nein</td>
+                    </tr> 
+                    <tr>
+                        <td class="tg-28r4">1.</td>
+                        <td class="tg-28r4"> Entwicklung einer webbasierten Anwendung zur Vergabe von Seminar- / Abschlussarbeitsthemen mit unterschiedlichen Verfahren 
+                            (Bewerbungs-, Belegungswunsch-, Windhund-Verfahren)</td>
+                        <td class="tg-28r4">Freier, Pascal</td>
+                        <td class="tg-28r4">WiSe17/18</td>
+                        <td class="tg-28r4">ja</td>
+                    </tr>  
+                    <tr>
+                        <td class="tg-28r4">2.</td>
+                        <td class="tg-28r4"> Entwickeln eines webbasierten Unterstützungssystems zur Inhaltsstrukturierung und Formatentscheidung von Lerninhalten einer multimedialen Lernumgebung 
+                            in Anlehnung an das DO-ID-Modell</td>
+                        <td class="tg-28r4">Freier, Pascal</td>
+                        <td class="tg-28r4">WiSe17/18</td>
+                        <td class="tg-28r4">ja</td>
+                    </tr> 
+                    <tr>
+                        <td class="tg-28r4">3.</td>
+                        <td class="tg-28r4">  Entwickeln einer webbasierten Anwendung zur automatisierten Platzzuweisung bei der anonymen Klausur</td>
+                        <td class="tg-28r4">Freier, Pascal</td>
+                        <td class="tg-28r4">WiSe17/18</td>
+                        <td class="tg-28r4">ja</td>
+                    </tr> 
+                    <tr>
+                        <td class="tg-28r4">4.</td>
+                        <td class="tg-28r4" > Entwicklung einer webbasierten Anwendung zur Vergabe von Seminar- / Abschlussarbeitsthemen mit unterschiedlichen Verfahren 
+                            (Bewerbungs-, Belegungswunsch-, Windhund-Verfahren)</td>
+                        <td class="tg-28r4">Freier, Pascal</td>
+                        <td class="tg-28r4">WiSe17/18</td>
+                        <td class="tg-28r4">nein</td>
+                    </tr> 
                     <tr>
                         <td class="tg-28r4">1.</td>
                         <td class="tg-28r4"> Entwicklung einer webbasierten Anwendung zur Vergabe von Seminar- / Abschlussarbeitsthemen mit unterschiedlichen Verfahren 
