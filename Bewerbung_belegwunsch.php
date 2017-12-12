@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-    <h4 class="card-title">Bewerbung -> Belegwunsch-Verfahren</h4>   
+    <h2 class="card-title">Bewerbung -> Belegwunsch-Verfahren</h2>   
             
                    
                 <div class="formbox">            

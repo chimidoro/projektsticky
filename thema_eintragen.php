@@ -1,6 +1,7 @@
             <?php include 'header.php';?>
 
-                <h4 class="card-title">Thema erstellen</h4> 
+            <a href="verwaltung.php"><i class="fas fa-chevron-right"></i> zurück zur Übersichtsseite</a><br><br>
+                <h2 class="card-title">Thema erstellen</h2> 
                          
                 <div class="formbox">
                         

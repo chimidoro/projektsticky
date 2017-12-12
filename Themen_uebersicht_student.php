@@ -1,36 +1,32 @@
 <?php include 'header.php'; ?>
 
-<h1 class="card-title">Übersicht der aktuellen Seminar- / Abschlussarbeitsthemen </h1> 
+
+<h2 class="card-title">Übersicht der aktuellen Seminar- / Abschlussarbeitsthemen </h2> 
 <br>
 
 <div style="text-align: center">
     <table style="width: 100%;text-align: center">
            <tr>
-                <th style="width: 20%; padding-right:2%;" class="tg-py0s">Semester</th>
-                <th style="width: 20%; padding-right:2%;" class="tg-py0s">Art</th>
-                <th style="width: 20%; padding-right:2%;" class="tg-py0s">Betreuer</th>
-                <th style="width: 20%; padding-right:2%;" class="tg-py0s">Tags</th>
-                <th style="width: 20%; padding-right:2%;" class="tg-py0s">Verf�gbarkeit</th>
+                <th style="width: 25%; padding-right:2%;" class="tg-py0s">Semester</th>
+                <th style="width: 25%; padding-right:2%;" class="tg-py0s">Art</th>
+                <th style="width: 25%; padding-right:2%;" class="tg-py0s">Betreuer</th>
+                <th style="width: 25%; padding-right:2%;" class="tg-py0s">Verfügbarkeit</th>
             </tr>
             <tr>
-                <td class="tg-28r4"><select style="width: 80%;" class="form-control">
+                <td class="tg-28r4"><select style="width: 90%;" class="form-control">
                     <option>WiSe 17/18</option>
                 </select> </td>
                 
-                <td class="tg-28r4"><select style="width: 80%;" class="form-control">
+                <td class="tg-28r4"><select style="width: 90%;" class="form-control">
                 <option>Abschlussarbeit</option>
                 <option>Seminararbeit</option>
                 </select> </td>
                 
-                <td class="tg-28r4"><select style="width: 80%;" class="form-control">
-                    <option>Schuhmann</option>
-                </select> </td>
-
                 <td class="tg-28r4"><select style="width: 90%;" class="form-control">
-                    <option>operative Systeme</option>
+                    <option>Prof. Dr. Schuhmann</option>
                 </select> </td>
 
-                <td class="tg-28r4"><select  style="width: 80%;" class="form-control">
+                <td class="tg-28r4"><select  style="width: 90%;" class="form-control">
                 <option>Verfügbar</option>
                 <option>Vergeben</option>
                 </select> </td>

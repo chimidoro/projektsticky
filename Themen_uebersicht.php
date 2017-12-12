@@ -1,6 +1,8 @@
 <?php include 'header.php'; ?>
 
-<h4 class="card-title">�bersicht der aktuellen Seminar- / Abschlussarbeitsthemen </h4> 
+<a href="verwaltung.php"><i class="fas fa-chevron-right"></i> zurück zur Übersichtsseite</a><br><br>
+
+<h2 class="card-title">Übersicht der aktuellen Seminar- / Abschlussarbeitsthemen </h2> 
 <h5>WiSe17/18</h5> <br>
 
 <table align="center" valign="middle" class="tg" style="width:90%" >
@@ -26,7 +28,7 @@
     <tr>
         <td class="tg-28r4">2.</td>
         <td class="tg-28r4">Projektseminar: Web</td>
-        <td class="tg-28r4"> Entwickeln eines webbasierten Unterst�tzungssystems zur Inhaltsstrukturierung und Formatentscheidung von Lerninhalten einer multimedialen Lernumgebung 
+        <td class="tg-28r4"> Entwickeln eines webbasierten Unterstützungssystems zur Inhaltsstrukturierung und Formatentscheidung von Lerninhalten einer multimedialen Lernumgebung 
             in Anlehnung an das DO-ID-Modell</td>
         <td class="tg-28r4">Freier, Pascal</td>
         <td class="tg-28r4">WiSe17/18</td>

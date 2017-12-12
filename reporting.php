@@ -1,5 +1,5 @@
             <?php include 'header.php';?>
-                <h4 class="card-title">Reporting-System</h4> 
+                <h2 class="card-title">Reporting-System</h2> 
                   
   <label style="margin:1px; padding:1px;" for="Semester"><b>Semerster:</b> </label>
                                     <select class="form-control" id="Semester">

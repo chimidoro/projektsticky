@@ -1,7 +1,8 @@
 <?php include 'header.php'; ?>
 
+<a href="href="Themen_uebersicht_student.php""><i class="fas fa-chevron-right"></i> zur Themenübersicht</a>
 
-<h4 class="card-title">�bersicht Seminar- / Abschlussarbeitsthemen </h4> 
+<h2 class="card-title">�bersicht Seminar- / Abschlussarbeitsthemen </h2> 
 <br>
 
 <div style="text-align: center">

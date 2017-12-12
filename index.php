@@ -1,10 +1,17 @@
 <?php include 'header.php'; ?>
 
 <br>
-<h1 class="card-title">Themenvergabe für Seminar und Abschlussarbeiten</h1><br>  
-<h4>
-    Willkommen zum Tool zur Anmeldung und Vergabe von Abschlussarbeiten.<br>
-</h4>
+<h2 style="margin-bottom: 15px;" class="card-title">Themenvergabe für Seminar und Abschlussarbeiten</h2>
+
+<div class="infos">
+    Willkommen zum Tool zur Anmeldung und Vergabe von Abschlussarbeiten. <br>
+    Hier finden Sie Informationen zur Themenvergabe von Abschluss- und Seminararbeiten. <br>
+    <a href="href="Themen_uebersicht_student.php""><i class="fas fa-chevron-right"></i> zur Themenübersicht</a>
+    
+</div><br>
+<p>
+    
+</p>
 
 
 <div class="info"> <!-- Tabelle mit Informationen und Collapsefunktion -->
@@ -51,9 +58,9 @@
                     <div class="card-body"> <h4>Vorgehensweise: Anmeldung/Bewerbung auf ein Seminar</h4><br>
                         <p>
                         <ol>
-                            <li>Informieren Sie sich auf dieser Informationsseite über die verschiedenen Vergabeverfahren.</li>
+                            <li>Informieren Sie sich auf dieser Informationsseite über die verschiedenen Vergabeverfahren.</li><br>
                             <li>Suchen Sie auf der folgenden Seite nach den passenden Modulen/Themen.<br>
-                                <a href="#">zur Themenübersicht</a></li>
+                                <a href="Themen_uebersicht_student.php"><i class="fas fa-chevron-right"></i> zur Themenübersicht</a></li><br>
                             <li>Wenn sie das passende Thema gefunden haben, klicken sie auf den grünen Button.<br>
                                 Sie werden dadurch zu dem Anmeldeformular weitergeleitet</li>
                         </ol>

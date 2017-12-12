@@ -3,7 +3,7 @@ session_start();
 include("header.php");
         if(isset($_SESSION['login'])){
            
-echo"<h4>Verwaltungsbereich</h4>";
+echo"<h2>Verwaltungsbereich</h2>";
 echo  $_SESSION['login'] ;
     
 echo "Cras sit amet nibh libero, in gravida nulla. Nulla vel metus sceso";
