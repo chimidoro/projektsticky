@@ -39,7 +39,9 @@
             <!-- Header-Bereich -->
             <header>
                 <div class="header">
-                    <a href="https://www.uni-goettingen.de/"><img id="logo" src="./img/logo.png" alt="Georg-August-Universität Göttingen"></a>
+                    <div class="container"
+                    <a href="https://www.uni-goettingen.de/"><img id="logo" src="./img/GAU.png" alt="Georg-August-Universität Göttingen"></a>
+                    </div>
                 </div>
             </header>
 
