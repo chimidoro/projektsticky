@@ -55,7 +55,7 @@
                         </p>
                     </div>-->
 
-                    <div class="card-body"> <h4>Vorgehensweise: Anmeldung/Bewerbung auf ein Seminar</h4><br>
+                    <div class="card-body"> <h4 style="padding-bottom: 10px">Vorgehensweise: Anmeldung/Bewerbung auf ein Seminar</h4>
                         <p>
                         <ol>
                             <li>Informieren Sie sich auf dieser Informationsseite über die verschiedenen Vergabeverfahren.</li><br>
@@ -85,7 +85,7 @@
 
                 <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion" >                     
                     <div class="card-body"> <h4>Wie funktionieren die Verfahren?</h4><br>
-                        <p>
+                        
                             Wie funktioniert shdas <b>Bewerbungsverfahren</b>?
                             Sie bewerben verbindlich sich für eine, von Ihnen, gewünschte Veranstaltung.
                             Anhand der folgend genannten Kriterien im Formular errechnet ein Algorithmus mit Hilfe eines Punktebewertungsschemas heraus, ob Sie die Bedingungen erfüllen, um
@@ -93,26 +93,26 @@
                             Die Bewerbung gilt nur innerhalb der Bewerbungsfrist.
                             Alle Anmeldungen werden zeitunabhängig innerhalb der Bewerbungsfrist gleichwertig behandelt.
                             Nach Ende der Frist bekommen sie eine Benachrichtigung in welcher Veranstaltung Sie zugeteilt wurden.
-                        </p>
-                        <p>
+                            <br><br>
                             Wie funktioniert das <b>Windhundverfahren</b> (alternativ First Come First Serve)?
                             Die Bewerber, die sich verbindlich am schnellsten in eine Veranstaltung eintragen bekommen garantiert ihren gewünschten Platz. Interessenten einer
                             Veranstaltung sollten sich also schnellstmöglich eintragen, da sonst ihnen ein Platz entgehen würde.
                             Die Bewerbung gilt nur innerhalb der Bewerbungsfrist. Nach Ende der Frist bekommen sie eine Benachrichtigung in welcher Veranstaltung Sie zugeteilt wurden.
-                        </p>
-                        <p>
+                            <br><br>
                             Wie funktioniert das <b>Belegungsverfahren</b>?
                             Sie wählen verbindlich im folgenden Formular drei verschiedene Themen absteigend nach ihrer gewählten Priorität aus.
                             Sie müssen in alle Themenauswahlfelder eine Priorität angeben. Die Bewerbung gilt nur innerhalb der Bewerbungsfrist. 
                             Anhand einer Algorithmik werden ihre Prioritäten berücksichtigt und das bestmögliche Optimum für alle Studenten ausgewertet. 
                             Trotzdessen ist es keine Garantie, dass sie ihre Belegwünsche bekommen. Alle Anmeldungen werden zeitunabhängig innerhalb der Bewerbungsfrist gleichwertig behandelt.
                             Nach Ende der Frist bekommen sie eine Benachrichtigung in welcher Veranstaltung Sie zugeteilt wurden.
-                        </p>
+                      
                     </div>             
 
                     <div class="card-body"> <h4>Nachrückverfahren</h4><br>
                         <p>
+                            Ein Nachrückverfahren findet statt, um noch nicht vergebene Seminarthemen zu vergeben. <br>
                             Falls nach der Ablauf der Vergabefrist noch Plätze übrig sind, werden diese nachträglich im Windhundverfahren (in der Regel mit der Dauer von 1 Woche) vergeben.
+                            Der Start dieses Verfahrens kann sich um einige Tage verzögern. Bitte prüfen Sie regelmäßig die Seite, damit Sie sicht rechtzeigtig für den Platz anmelden können.
                         </p>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
             <div class="accordion-group accordion-caret" data-toggle="collapse" href="#collapseThree" >
                 <div class="accordion-heading">
                     <a style="color: #ffffff;" class="accordion-toggle" data-toggle="collapse" href="#collapseThree">
-                        <strong>Notwendige Bewerbungsinformationen</strong>
+                        <strong>Informationen zur Bewerbung</strong>
                     </a>
                 </div>
             </div>
@@ -132,7 +132,7 @@
         <tr style="width: 100%;">
             <td class="tg-28r4" style="padding:0px;"> 
                 <div id="collapseThree" class="collapse show" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
-                    <div class="card-body">Über das Formular unter Angabe von: <br><br>
+                    <div class="card-body"><h4 style="padding-bottom: 15px">Folgende Informationen müssen im Formular angegeben werden:</h4>                
                         <ul>  
                             <li>Vorname</li> 
                             <li>Nachname</li> 
@@ -141,7 +141,7 @@
                             <li>Studiengang</li> 
                             <li>Fachsemester</li>  
                             <li>Versuch (Wurde bereits das Seminar nicht bestanden?)</li>  
-                            <li>3 Wunschthemen</li> 
+                            <li>3 Wunschthemen (bei Belegwunschverfahren</li> 
                         </ul>   
                     </div>
                 </div>
