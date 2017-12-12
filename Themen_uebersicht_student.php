@@ -49,7 +49,7 @@ Lorem ipsum dolor text....
 <!-- Tabelle 2 Bewerbungsverfahren -->
 <table class="tg" style="width: 100%;  margin: 1px;">   <!--Thema der Anmeldung mit sufklappbaren Unterthemen-->
     <th class="tg-py0s"> 
-        <a  style="color: #ffffff; " data-toggle="collapse"  href="#id2" aria-expanded="true" aria-controls="id2"><span class="badge badge-primary" data-toggle="tooltip" title="Art des Themas"> Seminarthemen</span> Projektseminar: Entwicklung von Webapplikationen</a>
+        <a  style="color: #ffffff; " data-toggle="collapse"  href="#id2" aria-expanded="true" aria-controls="id2"> Projektseminar: Entwicklung von Webapplikationen <span class="badge badge-primary" data-toggle="tooltip" title="Art des Themas">Seminarthemen</span></a>
         <button type="button" class="btn btn-danger active btn-lg" style="float: right; min-width: 190px;" data-toggle="tooltip" title="Der Anmeldezeitraum ist leider abgelaufen">Anmeldung gesperrt</button>   <!--Button mit Tooltip-->
         <br>    <!-- Beginn Infolabels -->
         <span class="badge badge-info" data-toggle="tooltip" title="Semester">WiSe 17/18</span>

@@ -1,12 +1,12 @@
 <?php include 'header.php'; ?>
 
 <br>
-<h2 style="margin-bottom: 15px;" class="card-title">Themenvergabe für Seminar und Abschlussarbeiten</h2>
+<h2 style="margin-bottom: 20px;" class="card-title">Themenvergabe für Seminar und Abschlussarbeiten</h2>
 
 <div class="infos">
     Willkommen zum Tool zur Anmeldung und Vergabe von Abschlussarbeiten. <br>
     Hier finden Sie Informationen zur Themenvergabe von Abschluss- und Seminararbeiten. <br>
-    <a href="href="Themen_uebersicht_student.php""><i class="fas fa-chevron-right"></i> zur Themenübersicht</a>
+    <a href="Themen_uebersicht_student.php"><i class="fas fa-chevron-right"></i> zur Themenübersicht</a>
     
 </div><br>
 <p>
