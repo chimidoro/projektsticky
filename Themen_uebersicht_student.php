@@ -52,10 +52,10 @@ Lorem ipsum dolor text....
         <a  style="color: #ffffff; " data-toggle="collapse"  href="#id2" aria-expanded="true" aria-controls="id2">Projektseminar: Entwicklung von Webapplikationen</a>
         <button type="button" class="btn btn-danger active btn-lg" style="float: right; min-width: 190px;" data-toggle="tooltip" title="Der Anmeldezeitraum ist leider abgelaufen">Anmeldung gesperrt</button>   <!--Button mit Tooltip-->
         <br>    <!-- Beginn Infolabels -->
-        <span class="badge badge-success">Seminarthemen</span>
-        <span class="badge badge-dark">WiSe 17/18</span>
-        <span class="badge badge-dark">Bewerbungsverfahren</span> 
-        <span class="badge badge-dark">Anmeldung von X bis Y</span>
+        <span class="badge badge-info" data-toggle="tooltip" title="Art des Themas">Seminarthemen</span>
+        <span class="badge badge-info" data-toggle="tooltip" title="Semester">WiSe 17/18</span>
+        <span class="badge badge-info" data-toggle="tooltip" title="Art des Verfahrens">Bewerbungsverfahren</span> 
+        <span class="badge badge-info" data-toggle="tooltip" title="Anmeldezeitraum">Anmeldung von X bis Y</span>
         
 
     </th>
@@ -93,7 +93,6 @@ Lorem ipsum dolor text....
                         <th class="tg-py0s">ID</th>
                         <th class="tg-py0s">Thema</th>
                         <th class="tg-py0s">Betreuer</th>
-                        <th class="tg-py0s">Semester</th>
                         <th class="tg-py0s">Verfügbarkeit</th>
                     </tr>
                     <tr>
@@ -101,22 +100,19 @@ Lorem ipsum dolor text....
                         <td class="tg-28r4"> Entwicklung einer webbasierten Anwendung zur Vergabe von Seminar- / Abschlussarbeitsthemen mit unterschiedlichen Verfahren 
                             (Bewerbungs-, Belegungswunsch-, Windhund-Verfahren)</td>
                         <td class="tg-28r4">Freier, Pascal</td>
-                        <td class="tg-28r4">WiSe17/18</td>
                         <td class="tg-28r4">ja</td>
                     </tr>  
                     <tr>
                         <td class="tg-28r4">2.</td>
-                        <td class="tg-28r4"> Entwickeln eines webbasierten Unterst�tzungssystems zur Inhaltsstrukturierung und Formatentscheidung von Lerninhalten einer multimedialen Lernumgebung 
+                        <td class="tg-28r4"> Entwickeln eines webbasierten Unterstützungssystems zur Inhaltsstrukturierung und Formatentscheidung von Lerninhalten einer multimedialen Lernumgebung 
                             in Anlehnung an das DO-ID-Modell</td>
                         <td class="tg-28r4">Freier, Pascal</td>
-                        <td class="tg-28r4">WiSe17/18</td>
                         <td class="tg-28r4">ja</td>
                     </tr> 
                     <tr>
                         <td class="tg-28r4">3.</td>
                         <td class="tg-28r4">  Entwickeln einer webbasierten Anwendung zur automatisierten Platzzuweisung bei der anonymen Klausur</td>
                         <td class="tg-28r4">Freier, Pascal</td>
-                        <td class="tg-28r4">WiSe17/18</td>
                         <td class="tg-28r4">ja</td>
                     </tr> 
                     <tr>
@@ -124,7 +120,6 @@ Lorem ipsum dolor text....
                         <td class="tg-28r4" > Entwicklung einer webbasierten Anwendung zur Vergabe von Seminar- / Abschlussarbeitsthemen mit unterschiedlichen Verfahren 
                             (Bewerbungs-, Belegungswunsch-, Windhund-Verfahren)</td>
                         <td class="tg-28r4">Freier, Pascal</td>
-                        <td class="tg-28r4">WiSe17/18</td>
                         <td class="tg-28r4">nein</td>
                     </tr> 
                 </table>
@@ -138,14 +133,13 @@ Lorem ipsum dolor text....
 <!-- Tabelle 3 Windhund -->
 <table class="tg" style="width: 100%;  margin: 1px;">   <!--Thema der Anmeldung mit sufklappbaren Unterthemen-->
     <th class="tg-py0s"> 
-        <a  style="color: #ffffff; " data-toggle="collapse"  href="#id3" aria-expanded="true" aria-controls="id3">Projektseminar: Entwicklung von Webapplikationen</a>
+        <a  style="color: #ffffff; " data-toggle="collapse"  href="#id3" aria-expanded="true" aria-controls="id3">Professur für Anwendungssysteme und E-Business</a>
         <a href="#" class="btn btn-success active btn-lg" role="button" aria-pressed="true" style="float: right; min-width: 190px;">zur Anmeldung</a>
         <br>    <!-- Beginn Infolabels -->
-        <span class="badge badge-success">Abschlussarbeiten</span>
-        <span class="badge badge-dark">WiSe 17/18</span>
-        <span class="badge badge-dark">Windhund-Nachrückverfahren</span> 
-        <span class="badge badge-dark">Anmeldung möglich bis: 14.10.17</span>
-
+        <span class="badge badge-info" data-toggle="tooltip" title="Art des Themas">Abschlussarbeiten</span>
+        <span class="badge badge-info" data-toggle="tooltip" title="Semester">WiSe 17/18</span>
+        <span class="badge badge-info" data-toggle="tooltip" title="Art des Verfahrens">Windhund-Nachrückverfahren</span> 
+        <span class="badge badge-info" data-toggle="tooltip" title="Anmeldezeitraum">Anmeldung möglich bis: 14.10.17</span>
     </th>
     <tr style="width: 100%;">
         <td class="tg-28r4" style="padding:0px;"> 
@@ -194,7 +188,7 @@ Lorem ipsum dolor text....
                     </tr>  
                     <tr>
                         <td class="tg-28r4">2.</td>
-                        <td class="tg-28r4"> Entwickeln eines webbasierten Unterst�tzungssystems zur Inhaltsstrukturierung und Formatentscheidung von Lerninhalten einer multimedialen Lernumgebung 
+                        <td class="tg-28r4"> Entwickeln eines webbasierten Unterstützungssystems zur Inhaltsstrukturierung und Formatentscheidung von Lerninhalten einer multimedialen Lernumgebung 
                             in Anlehnung an das DO-ID-Modell</td>
                         <td class="tg-28r4">Freier, Pascal</td>
                         <td class="tg-28r4">WiSe17/18</td>
