@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 
-<h4 class="card-title">Übersicht der aktuellen Seminar- / Abschlussarbeitsthemen </h4> 
+<h1 class="card-title">Übersicht der aktuellen Seminar- / Abschlussarbeitsthemen </h1> 
 <br>
 
 <div style="text-align: center">
@@ -18,7 +18,7 @@
                 </select> </td>
                 
                 <td class="tg-28r4"><select style="width: 80%;" class="form-control">
-                <option>Achlussarbeit</option>
+                <option>Abschlussarbeit</option>
                 <option>Seminararbeit</option>
                 </select> </td>
                 
@@ -31,7 +31,7 @@
                 </select> </td>
 
                 <td class="tg-28r4"><select  style="width: 80%;" class="form-control">
-                <option>Verf�gbar</option>
+                <option>Verfügbar</option>
                 <option>Vergeben</option>
                 </select> </td>
 
@@ -54,10 +54,14 @@ Lorem ipsum dolor text....
 <table class="tg" style="width: 100%;  margin: 1px;">   <!--Thema der Anmeldung mit sufklappbaren Unterthemen-->
     <th class="tg-py0s"> 
         <a  style="color: #ffffff; " data-toggle="collapse"  href="#id2" aria-expanded="true" aria-controls="id2">Projektseminar: Entwicklung von Webapplikationen</a>
-        <button type="button" class="btn btn-danger active btn-lg" style="float: right;" data-toggle="tooltip" title="Der Anmeldezeitraum ist leider abgelaufen">Anmeldung gesperrt</button>   <!--Button mit Tooltip-->
+        <button type="button" class="btn btn-danger active btn-lg" style="float: right; min-width: 190px;" data-toggle="tooltip" title="Der Anmeldezeitraum ist leider abgelaufen">Anmeldung gesperrt</button>   <!--Button mit Tooltip-->
         <br>    <!-- Beginn Infolabels -->
+        <span class="badge badge-success">Seminarthemen</span>
+        <span class="badge badge-dark">WiSe 17/18</span>
         <span class="badge badge-dark">Bewerbungsverfahren</span> 
         <span class="badge badge-dark">Anmeldung von X bis Y</span>
+        
+
     </th>
     <tr style="width: 100%;">
         <td class="tg-28r4" style="padding:0px;"> 
@@ -139,8 +143,10 @@ Lorem ipsum dolor text....
 <table class="tg" style="width: 100%;  margin: 1px;">   <!--Thema der Anmeldung mit sufklappbaren Unterthemen-->
     <th class="tg-py0s"> 
         <a  style="color: #ffffff; " data-toggle="collapse"  href="#id3" aria-expanded="true" aria-controls="id3">Projektseminar: Entwicklung von Webapplikationen</a>
-        <a href="#" class="btn btn-success active btn-lg" role="button" aria-pressed="true" style="float: right;">zur Anmeldung</a>
+        <a href="#" class="btn btn-success active btn-lg" role="button" aria-pressed="true" style="float: right; min-width: 190px;">zur Anmeldung</a>
         <br>    <!-- Beginn Infolabels -->
+        <span class="badge badge-success">Abschlussarbeiten</span>
+        <span class="badge badge-dark">WiSe 17/18</span>
         <span class="badge badge-dark">Windhund-Nachrückverfahren</span> 
         <span class="badge badge-dark">Anmeldung möglich bis: 14.10.17</span>
 

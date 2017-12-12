@@ -24,11 +24,9 @@
             <td class="tg-28r4" style="padding:0px;"> 
 
 
-                <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" >         
-                    <div class="card-body"> <h4>Testbox </h4><br>
+                <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion" >         
+                    <!--<div class="card-body"> <h4>Testbox </h4><br>
                         <p>
-
-
 
                             <button type="button"
                                     onclick="document.getElementById('demo').innerHTML = Date()">
@@ -39,8 +37,6 @@
                         <i class="fas fa-spinner fa-spin"></i><br>
 
 
-
-
                         <div class="btn-group">
                             <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">
                                 <span class="glyphicon glyphicon-minus"></span>
@@ -49,11 +45,8 @@
                         <div id="demo" class="collapse in">Some dummy text in here.</div>
 
 
-
-
-
                         </p>
-                    </div>
+                    </div>-->
 
                     <div class="card-body"> <h4>Vorgehensweise: Anmeldung/Bewerbung auf ein Seminar</h4><br>
                         <p>
@@ -75,7 +68,7 @@
             <div class="accordion-group accordion-caret" data-toggle="collapse" href="#collapseTwo" >
                 <div class="accordion-heading">
                     <a style="color: #ffffff;" class="accordion-toggle" data-toggle="collapse" href="#collapseTwo">
-                        <strong>Informationen zu den Bewerbungsverfahren</strong>
+                        <strong>Informationen zu den Vergabearten</strong>
                     </a>
                 </div>
             </div>
@@ -83,7 +76,7 @@
         <tr style="width: 100%;">
             <td class="tg-28r4" style="padding:0px;"> 
 
-                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion" >                     
+                <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion" >                     
                     <div class="card-body"> <h4>Wie funktionieren die Verfahren?</h4><br>
                         <p>
                             Wie funktioniert shdas <b>Bewerbungsverfahren</b>?
@@ -124,14 +117,14 @@
             <div class="accordion-group accordion-caret" data-toggle="collapse" href="#collapseThree" >
                 <div class="accordion-heading">
                     <a style="color: #ffffff;" class="accordion-toggle" data-toggle="collapse" href="#collapseThree">
-                        <strong>Informationen zu den Bewerbungsverfahren</strong>
+                        <strong>Notwendige Bewerbungsinformationen</strong>
                     </a>
                 </div>
             </div>
         </th>
         <tr style="width: 100%;">
             <td class="tg-28r4" style="padding:0px;"> 
-                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                <div id="collapseThree" class="collapse show" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
                     <div class="card-body">Über das Formular unter Angabe von: <br><br>
                         <ul>  
                             <li>Vorname</li> 

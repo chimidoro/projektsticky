@@ -143,7 +143,14 @@ body {
     font-weight:bold;
     text-align:left;
     background-color:#3979b5;
-    vertical-align:top;   
+    vertical-align:top; 
+}      
+
+.tg .tg-py0s-small{
+    font-weight:bold;
+    text-align:left;
+    background-color:#3979b5;
+    vertical-align:top; 
 }      
 
 /* Schrift für td  */

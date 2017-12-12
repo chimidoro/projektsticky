@@ -8,7 +8,7 @@
     <div class="nav_box">
         <h5 class="mt-0">Links</h5>
         <a href="index.php">Infoseite</a><br>
-        <a href="themen_uebersicht_student.php">ThemenÃ¼bersicht</a><br>
+        <a href="themen_uebersicht_student.php">Themenübersicht</a><br>
         <a href="http://www.uni-goettingen.de/de/department+f%c3%bcr+betriebswirtschaftslehre/416213.html">Betriebswirtschaftliche Professuren</a><br>
         <a href="http://www.uni-goettingen.de/de/department+f%c3%bcr+volkswirtschaftslehre/416738.html">Volkswirtschaftliche Professuren</a><br>
         <a href="">z.B Downloadlink der Folien der Informationsveranstaltung</a>
