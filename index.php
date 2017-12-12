@@ -1,6 +1,10 @@
 <?php include 'header.php'; ?>
-
+<script>
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})    </script>
 <br>
+
 <h2 style="margin-bottom: 20px;" class="card-title">Themenvergabe für Seminar und Abschlussarbeiten</h2>
 
 <div class="infos">
@@ -9,9 +13,16 @@
     <a href="Themen_uebersicht_student.php"><i class="fas fa-chevron-right"></i> zur Themenübersicht</a>
     
 </div><br>
-<p>
-    
-</p>
+
+
+<td><a tabindex="0" role="button" data-toggle="popover" data-placement="bottom" data-trigger="focus" title="Kurzbeschreibung" data-content="
+
+Bei dem Marktführer in der europaweiten bargeldlosen Unterwegsversorgung (mit Tankkarten) stehen umfangreiche Datenbestände zur Risikosituation von Kunden (> 100.000), deren Zahlverhalten und den Zahlungsausfällen von Kundenforderungen sowie der Kreditversicherung von Kundenforderungen mit differenzierten Vertragskonditionen zur Verfügung. Dabei handelt es sich um historisierte Daten, die sich auch auf Unternehmen mit Sitz in verschiedenen europäischen Ländern beziehen. In der Masterarbeit sollen Simulationsmodelle entwickelt werden, mit denen sich finanzielle Wirkungen von Konditionenveränderungen, Risikoveränderungen oder der Veränderung von Vertragsparametern der Kreditversicherungsverträge beurteilen lassen. Studierende, die das Thema bearbeiten wollen, erhalten dazu eine sechs bis achtwöchige Einarbeitung in das Geschäftsmodell des Unternehmens im Rahmen eines Praktikums in Ratingen.
+
+
+" class="frei">Praxisarbeit (in Zusammenarbeit mit DKV Euro Service): Einsatzmöglichkeiten einer Datenbasis zur Simulation von Wirkungen auf das operative Ergebnis bei der Finanzierung von Forderungen gegenüber Kunden eines Unternehmens im Tankkartengeschäft (nur Master) </a></td></tr>
+
+<tr><td class="betreuer"> <a href="/de/45070.html">Prof. Dr. M. Schumann</a> </td>
 
 
 <div class="info"> <!-- Tabelle mit Informationen und Collapsefunktion -->

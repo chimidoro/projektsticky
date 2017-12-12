@@ -1,5 +1,6 @@
 <?php include 'header.php'; ?>
-
+<!-- Popover -->
+<a tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a> <!-- Popover -->
 
 <h2 class="card-title">Übersicht der aktuellen Seminar- / Abschlussarbeitsthemen </h2> 
 <br>
