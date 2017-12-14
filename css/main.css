@@ -97,6 +97,9 @@ body {
     text-transform: uppercase;
 }  
 
+.content{
+    padding-bottom: 50px
+}
 /*  ENDE CSS zum Layout */
 
 /* Tabelle auf der Infoseite */
@@ -261,4 +264,9 @@ label{
     .accordion-caret .accordion-toggle.collapsed:before {
         content: "▸";
         margin-right: 0px;
+    }
+    
+/* Popover */
+.frei{
+      width: 1200px;
     }
